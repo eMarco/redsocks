@@ -34,6 +34,6 @@ LOCAL_C_INCLUDES := \
 
 LOCAL_STATIC_LIBRARIES := libevent
 
-LOCAL_CFLAGS := -O2 -std=gnu99 -Wall -Devutil_socket_t=int
+LOCAL_CFLAGS :=   -O2 -std=gnu99 -Wall -Devutil_socket_t=int -DANDROID21 -fPIC
 
 include $(BUILD_EXECUTABLE)

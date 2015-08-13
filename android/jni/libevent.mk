@@ -22,6 +22,6 @@ LOCAL_C_INCLUDES := \
 	$(LOCAL_PATH)/libevent \
 	$(LOCAL_PATH)/libevent/android
 
-LOCAL_CFLAGS := -DHAVE_CONFIG_H -DANDROID -fvisibility=hidden
+LOCAL_CFLAGS := -DHAVE_CONFIG_H -DANDROID21 -fvisibility=hidden
 
 include $(BUILD_STATIC_LIBRARY)
